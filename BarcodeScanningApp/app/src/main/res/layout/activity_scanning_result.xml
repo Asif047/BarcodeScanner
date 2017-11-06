@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deliman_poc.rokomari.barcodescanningapp.ScanningResultActivity">
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:text="Scanning Result"
+        android:textColor="#060606"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/textview_scanning_result"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+
+        android:textColor="#1329d2"
+        android:gravity="center"
+        />
+
+</LinearLayout>
